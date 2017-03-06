@@ -7,7 +7,7 @@ import retrofit2.converter.simplexml.SimpleXmlConverterFactory;
 /**
  * Created by fung on 3/4/2017.
  */
-
+@Deprecated
 public class ApiManager {
 
 

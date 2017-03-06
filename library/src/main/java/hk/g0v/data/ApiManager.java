@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 /**
  * Created by fung on 3/4/2017.
  */
-
+@Deprecated
 public class ApiManager {
 
 
