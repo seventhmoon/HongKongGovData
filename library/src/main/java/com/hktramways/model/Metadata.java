@@ -12,7 +12,7 @@ import org.simpleframework.xml.Root;
  */
 
 @Root(name = "metadata")
-public class Metadata implements Comparable<Metadata>{
+public class Metadata {
 
 //      <metadata arrive_in_minute="5" arrive_in_second="228" is_arrived="0" stop_code="16W" seq="1" tram_id="46" eat="Mar 4 2017 10:42PM" dest_stop_code="WMT" tram_dest_tc="上環 (西港城) 總站" tram_dest_en="Western Market Terminus" is_last_tram="0"/>
 
@@ -154,13 +154,13 @@ public class Metadata implements Comparable<Metadata>{
         this.lastTram = lastTram;
     }
 
-    @Override
-    public int compareTo(@NonNull Metadata eta) {
-
-        return ComparisonChain.start()
-                .compare(this.sequence, eta.getSequence())
-//                .compare(this.eta, eta.getEta())
-                .compare(this.tramId, eta.tramId)
-                .result();
-    }
+//    @Override
+//    public int compareTo(@NonNull Metadata eta) {
+//
+//        return ComparisonChain.start()
+//                .compare(this.sequence, eta.getSequence())
+////                .compare(this.eta, eta.getEta())
+//                .compare(this.tramId, eta.tramId)
+//                .result();
+//    }
 }
