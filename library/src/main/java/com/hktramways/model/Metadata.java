@@ -1,9 +1,5 @@
 package com.hktramways.model;
 
-import android.support.annotation.NonNull;
-
-import com.google.common.collect.ComparisonChain;
-
 import org.simpleframework.xml.Attribute;
 import org.simpleframework.xml.Root;
 
