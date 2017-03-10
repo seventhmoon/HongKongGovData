@@ -1,6 +1,8 @@
 # HongKongOpenData
 Library for accessing opendata APIs in Hong Kong
-[![](https://jitpack.io/v/seventhmoon/HongKongGovData.svg)](https://jitpack.io/#seventhmoon/HongKongGovData)
+
+[![Build Status](https://travis-ci.org/seventhmoon/HongKongOpenData.svg?branch=master)](https://travis-ci.org/seventhmoon/HongKongOpenData)
+[![](https://jitpack.io/v/seventhmoon/HongKongOpenData.svg)](https://jitpack.io/#seventhmoon/HongKongOpenData)
 
 ## Available API
  - GovWifi
