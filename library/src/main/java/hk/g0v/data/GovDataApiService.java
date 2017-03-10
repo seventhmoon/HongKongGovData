@@ -1,8 +1,5 @@
 package hk.g0v.data;
 
-import java.util.List;
-
-import hk.g0v.data.govwifi.model.Result;
 import hk.g0v.data.govwifi.model.Results;
 import retrofit2.Call;
 import retrofit2.http.GET;

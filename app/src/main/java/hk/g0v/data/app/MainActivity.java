@@ -2,20 +2,15 @@ package hk.g0v.data.app;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TextView;
 
 import com.facebook.stetho.okhttp3.StethoInterceptor;
 
-import java.util.List;
-
-import hk.g0v.data.govwifi.model.Result;
 import hk.g0v.data.ApiManager;
 import hk.g0v.data.GovDataApiService;
 import hk.g0v.data.govwifi.model.Results;
