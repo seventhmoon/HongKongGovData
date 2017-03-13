@@ -23,3 +23,7 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+-keep class com.hktramways.model.*
+-keep class hk.com.clp.opendata.chargingstation.model.*
+-keep class hk.g0v.data.govwifi.model.*
