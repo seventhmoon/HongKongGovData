@@ -11,8 +11,10 @@ import retrofit2.converter.simplexml.SimpleXmlConverterFactory;
 
 /**
  * Created by fung on 3/4/2017.
+ * Class containing configuration for different API Service Provider
  */
 
+@SuppressWarnings({"WeakerAccess", "unused"})
 public final class ApiServices {
 
     private static final String TRAMWAYS_API_BASE_URL = "https://www.com.hktramways.hktramways.com/";
